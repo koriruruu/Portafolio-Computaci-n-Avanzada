@@ -13,14 +13,14 @@ with col1:
  st.subheader("¿Qué fruta es más parecida?")
  image = Image.open('imagenes/img1.jpg')
  st.image(image, width=190)
- st.write("A partir del peso, diámetro y nivel de dulzor ingresados, el programa calcula la similitud con una lista de frutas conocidas (manzana, banano, naranja o pera) y muestra la coincidencia más cercana.") 
+ st.write("Aplicación web que encuentra la fruta más parecida a la ingresada comparando su peso, diámetro y dulzor.") 
  url = "https://frutasapp-5jeu4vlbumawf452mfbzwk.streamlit.app/"
  st.write(f"App: [Enlace]({url})")
 
  st.subheader("Descenso de Gradiente Interactivo")
  image = Image.open('imagenes/img2.jpg')
  st.image(image, width=200)
- st.write("Aplicación en Streamlit para visualizar en tiempo real y en 3D cómo el descenso de gradiente encuentra el mínimo de una función. Permite ajustar parámetros como la tasa de aprendizaje e incluye un ejemplo práctico de regresión lineal.") 
+ st.write("Herramienta interactiva para visualizar en 3D la optimización por descenso de gradiente y probar distintos parámetros.") 
  url = "https://appgradient-wpjq4eb77wgxzj49h8h2ey.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
