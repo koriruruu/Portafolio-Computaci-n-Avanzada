@@ -13,9 +13,9 @@ with col1:
  st.subheader("¿Qué fruta es más parecida?")
  image = Image.open('imagenes/img1.jpg')
  st.image(image, width=190)
- st.write("A partir del peso, diámetro y nivel de dulzor ingresados, el programa calcula la similitud con una lista de frutas conocidas (manzana, banano, naranja o pera) y muestra la coincidencia más cercana.") 
+ st.caption("A partir del peso, diámetro y nivel de dulzor ingresados, el programa calcula la similitud con una lista de frutas conocidas (manzana, banano, naranja o pera) y muestra la coincidencia más cercana.") 
  url = "https://frutasapp-5jeu4vlbumawf452mfbzwk.streamlit.app/"
- st.write(f"App: [Enlace]({url})")
+ st.caption(f"App: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
  image = Image.open('txt_to_audio.png')
