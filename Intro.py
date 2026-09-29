@@ -11,7 +11,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("¿Qué fruta es más parecida?")
- image = Image.open('img1.jpg')
+ image = Image.open('/imagenes/img1.jpg')
  st.image(image, width=190)
  st.write("A partir del peso, diámetro y nivel de dulzor ingresados, el programa calcula la similitud con una lista de frutas conocidas (manzana, banano, naranja o pera) y muestra la coincidencia más cercana.") 
  url = "https://frutasapp-5jeu4vlbumawf452mfbzwk.streamlit.app/"
