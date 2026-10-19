@@ -22,22 +22,22 @@ with col1:
  st.image(image, width=200)
  st.write("Herramienta interactiva para visualizar en 3D la optimización por descenso de gradiente y probar distintos parámetros.") 
  url = "https://appgradient-wpjq4eb77wgxzj49h8h2ey.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"App: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
+ st.subheader("Detector de Anomalías: Lógica + Big-O + NumPy")
+ image = Image.open('img3.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ url = "https://appbigo-jfrqwug2inp9nhrc56qkcf.streamlit.app/"
+ st.write(f"App: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
+ st.subheader("Preparación de datos")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
  url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write(f"App: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
