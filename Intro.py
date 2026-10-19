@@ -25,7 +25,7 @@ with col1:
  st.write(f"App: [Enlace]({url})")
 
  st.subheader("Detector de Anomalías: Lógica + Big-O + NumPy")
- image = Image.open('img3.jpg')
+ image = Image.open('imagenes/img3.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
  url = "https://appbigo-jfrqwug2inp9nhrc56qkcf.streamlit.app/"
