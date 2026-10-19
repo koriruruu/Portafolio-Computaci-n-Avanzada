@@ -27,7 +27,7 @@ with col1:
  st.subheader("Detector de Anomalías: Lógica + Big-O + NumPy")
  image = Image.open('imagenes/img3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
+ st.write("Compara el rendimiento de evaluar reglas lógicas en Python mediante simulación, gráficos Big-O y benchmarks en vivo.") 
  url = "https://appbigo-jfrqwug2inp9nhrc56qkcf.streamlit.app/"
  st.write(f"App: [Enlace]({url})")
 
