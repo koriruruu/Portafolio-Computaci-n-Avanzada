@@ -32,11 +32,11 @@ with col1:
  st.write(f"App: [Enlace]({url})")
 
 with col2: 
- st.subheader("Preparación de datos")
- image = Image.open('OIG8.jpg')
+ st.subheader("Datos: Preparación y estructura")
+ image = Image.open('imagenes/img4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
+ st.write("Herramienta para experimentar en vivo con la preparación de datos IoT: limpieza, escalado, división del dataset y análisis estadístico.") 
+ url = "https://app815-5tkrhx3qvm2btnnnrhfzrc.streamlit.app/"
  st.write(f"App: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
